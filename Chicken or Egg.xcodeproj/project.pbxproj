@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13EABA791CCB3B300023A32E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EABA781CCB3B300023A32E /* AppDelegate.swift */; };
+		13EABA7B1CCB3B300023A32E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EABA7A1CCB3B300023A32E /* ViewController.swift */; };
+		13EABA7E1CCB3B300023A32E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EABA7C1CCB3B300023A32E /* Main.storyboard */; };
+		13EABA811CCB3B300023A32E /* Chicken_or_Egg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13EABA7F1CCB3B300023A32E /* Chicken_or_Egg.xcdatamodeld */; };
+		13EABA831CCB3B300023A32E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EABA821CCB3B300023A32E /* Assets.xcassets */; };
+		13EABA861CCB3B300023A32E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EABA841CCB3B300023A32E /* LaunchScreen.storyboard */; };
+		13EABA911CCB3B300023A32E /* Chicken_or_EggTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EABA901CCB3B300023A32E /* Chicken_or_EggTests.swift */; };
+		13EABA9C1CCB3B300023A32E /* Chicken_or_EggUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EABA9B1CCB3B300023A32E /* Chicken_or_EggUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13EABA8D1CCB3B300023A32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13EABA6D1CCB3B300023A32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EABA741CCB3B300023A32E;
+			remoteInfo = "Chicken or Egg";
+		};
+		13EABA981CCB3B300023A32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13EABA6D1CCB3B300023A32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EABA741CCB3B300023A32E;
+			remoteInfo = "Chicken or Egg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13EABA751CCB3B300023A32E /* Chicken or Egg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chicken or Egg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EABA781CCB3B300023A32E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13EABA7A1CCB3B300023A32E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13EABA7D1CCB3B300023A32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13EABA801CCB3B300023A32E /* Chicken_or_Egg.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chicken_or_Egg.xcdatamodel; sourceTree = "<group>"; };
+		13EABA821CCB3B300023A32E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13EABA851CCB3B300023A32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13EABA871CCB3B300023A32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EABA8C1CCB3B300023A32E /* Chicken or EggTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chicken or EggTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EABA901CCB3B300023A32E /* Chicken_or_EggTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chicken_or_EggTests.swift; sourceTree = "<group>"; };
+		13EABA921CCB3B300023A32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EABA971CCB3B300023A32E /* Chicken or EggUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chicken or EggUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EABA9B1CCB3B300023A32E /* Chicken_or_EggUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chicken_or_EggUITests.swift; sourceTree = "<group>"; };
+		13EABA9D1CCB3B300023A32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13EABA721CCB3B300023A32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EABA891CCB3B300023A32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EABA941CCB3B300023A32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EABA6C1CCB3B300023A32E = {
+			isa = PBXGroup;
+			children = (
+				13EABA771CCB3B300023A32E /* Chicken or Egg */,
+				13EABA8F1CCB3B300023A32E /* Chicken or EggTests */,
+				13EABA9A1CCB3B300023A32E /* Chicken or EggUITests */,
+				13EABA761CCB3B300023A32E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13EABA761CCB3B300023A32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13EABA751CCB3B300023A32E /* Chicken or Egg.app */,
+				13EABA8C1CCB3B300023A32E /* Chicken or EggTests.xctest */,
+				13EABA971CCB3B300023A32E /* Chicken or EggUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13EABA771CCB3B300023A32E /* Chicken or Egg */ = {
+			isa = PBXGroup;
+			children = (
+				13EABA781CCB3B300023A32E /* AppDelegate.swift */,
+				13EABA7A1CCB3B300023A32E /* ViewController.swift */,
+				13EABA7C1CCB3B300023A32E /* Main.storyboard */,
+				13EABA821CCB3B300023A32E /* Assets.xcassets */,
+				13EABA841CCB3B300023A32E /* LaunchScreen.storyboard */,
+				13EABA871CCB3B300023A32E /* Info.plist */,
+				13EABA7F1CCB3B300023A32E /* Chicken_or_Egg.xcdatamodeld */,
+			);
+			path = "Chicken or Egg";
+			sourceTree = "<group>";
+		};
+		13EABA8F1CCB3B300023A32E /* Chicken or EggTests */ = {
+			isa = PBXGroup;
+			children = (
+				13EABA901CCB3B300023A32E /* Chicken_or_EggTests.swift */,
+				13EABA921CCB3B300023A32E /* Info.plist */,
+			);
+			path = "Chicken or EggTests";
+			sourceTree = "<group>";
+		};
+		13EABA9A1CCB3B300023A32E /* Chicken or EggUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13EABA9B1CCB3B300023A32E /* Chicken_or_EggUITests.swift */,
+				13EABA9D1CCB3B300023A32E /* Info.plist */,
+			);
+			path = "Chicken or EggUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13EABA741CCB3B300023A32E /* Chicken or Egg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EABAA01CCB3B300023A32E /* Build configuration list for PBXNativeTarget "Chicken or Egg" */;
+			buildPhases = (
+				13EABA711CCB3B300023A32E /* Sources */,
+				13EABA721CCB3B300023A32E /* Frameworks */,
+				13EABA731CCB3B300023A32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chicken or Egg";
+			productName = "Chicken or Egg";
+			productReference = 13EABA751CCB3B300023A32E /* Chicken or Egg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13EABA8B1CCB3B300023A32E /* Chicken or EggTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EABAA31CCB3B300023A32E /* Build configuration list for PBXNativeTarget "Chicken or EggTests" */;
+			buildPhases = (
+				13EABA881CCB3B300023A32E /* Sources */,
+				13EABA891CCB3B300023A32E /* Frameworks */,
+				13EABA8A1CCB3B300023A32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13EABA8E1CCB3B300023A32E /* PBXTargetDependency */,
+			);
+			name = "Chicken or EggTests";
+			productName = "Chicken or EggTests";
+			productReference = 13EABA8C1CCB3B300023A32E /* Chicken or EggTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13EABA961CCB3B300023A32E /* Chicken or EggUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EABAA61CCB3B300023A32E /* Build configuration list for PBXNativeTarget "Chicken or EggUITests" */;
+			buildPhases = (
+				13EABA931CCB3B300023A32E /* Sources */,
+				13EABA941CCB3B300023A32E /* Frameworks */,
+				13EABA951CCB3B300023A32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13EABA991CCB3B300023A32E /* PBXTargetDependency */,
+			);
+			name = "Chicken or EggUITests";
+			productName = "Chicken or EggUITests";
+			productReference = 13EABA971CCB3B300023A32E /* Chicken or EggUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13EABA6D1CCB3B300023A32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = self.edu;
+				TargetAttributes = {
+					13EABA741CCB3B300023A32E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					13EABA8B1CCB3B300023A32E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 13EABA741CCB3B300023A32E;
+					};
+					13EABA961CCB3B300023A32E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 13EABA741CCB3B300023A32E;
+					};
+				};
+			};
+			buildConfigurationList = 13EABA701CCB3B300023A32E /* Build configuration list for PBXProject "Chicken or Egg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13EABA6C1CCB3B300023A32E;
+			productRefGroup = 13EABA761CCB3B300023A32E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13EABA741CCB3B300023A32E /* Chicken or Egg */,
+				13EABA8B1CCB3B300023A32E /* Chicken or EggTests */,
+				13EABA961CCB3B300023A32E /* Chicken or EggUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13EABA731CCB3B300023A32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EABA861CCB3B300023A32E /* LaunchScreen.storyboard in Resources */,
+				13EABA831CCB3B300023A32E /* Assets.xcassets in Resources */,
+				13EABA7E1CCB3B300023A32E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EABA8A1CCB3B300023A32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EABA951CCB3B300023A32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13EABA711CCB3B300023A32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EABA7B1CCB3B300023A32E /* ViewController.swift in Sources */,
+				13EABA791CCB3B300023A32E /* AppDelegate.swift in Sources */,
+				13EABA811CCB3B300023A32E /* Chicken_or_Egg.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EABA881CCB3B300023A32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EABA911CCB3B300023A32E /* Chicken_or_EggTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EABA931CCB3B300023A32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EABA9C1CCB3B300023A32E /* Chicken_or_EggUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13EABA8E1CCB3B300023A32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13EABA741CCB3B300023A32E /* Chicken or Egg */;
+			targetProxy = 13EABA8D1CCB3B300023A32E /* PBXContainerItemProxy */;
+		};
+		13EABA991CCB3B300023A32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13EABA741CCB3B300023A32E /* Chicken or Egg */;
+			targetProxy = 13EABA981CCB3B300023A32E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13EABA7C1CCB3B300023A32E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13EABA7D1CCB3B300023A32E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13EABA841CCB3B300023A32E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13EABA851CCB3B300023A32E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13EABA9E1CCB3B300023A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13EABA9F1CCB3B300023A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13EABAA11CCB3B300023A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chicken or Egg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Chicken-or-Egg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13EABAA21CCB3B300023A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chicken or Egg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Chicken-or-Egg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13EABAA41CCB3B300023A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Chicken or EggTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Chicken-or-EggTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken or Egg.app/Chicken or Egg";
+			};
+			name = Debug;
+		};
+		13EABAA51CCB3B300023A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Chicken or EggTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Chicken-or-EggTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken or Egg.app/Chicken or Egg";
+			};
+			name = Release;
+		};
+		13EABAA71CCB3B300023A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Chicken or EggUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Chicken-or-EggUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Chicken or Egg";
+			};
+			name = Debug;
+		};
+		13EABAA81CCB3B300023A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Chicken or EggUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Chicken-or-EggUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Chicken or Egg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13EABA701CCB3B300023A32E /* Build configuration list for PBXProject "Chicken or Egg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EABA9E1CCB3B300023A32E /* Debug */,
+				13EABA9F1CCB3B300023A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13EABAA01CCB3B300023A32E /* Build configuration list for PBXNativeTarget "Chicken or Egg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EABAA11CCB3B300023A32E /* Debug */,
+				13EABAA21CCB3B300023A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13EABAA31CCB3B300023A32E /* Build configuration list for PBXNativeTarget "Chicken or EggTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EABAA41CCB3B300023A32E /* Debug */,
+				13EABAA51CCB3B300023A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13EABAA61CCB3B300023A32E /* Build configuration list for PBXNativeTarget "Chicken or EggUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EABAA71CCB3B300023A32E /* Debug */,
+				13EABAA81CCB3B300023A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13EABA7F1CCB3B300023A32E /* Chicken_or_Egg.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13EABA801CCB3B300023A32E /* Chicken_or_Egg.xcdatamodel */,
+			);
+			currentVersion = 13EABA801CCB3B300023A32E /* Chicken_or_Egg.xcdatamodel */;
+			path = Chicken_or_Egg.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13EABA6D1CCB3B300023A32E /* Project object */;
+}
